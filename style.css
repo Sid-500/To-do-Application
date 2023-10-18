@@ -1,0 +1,48 @@
+body{
+    background: linear-gradient(135deg, #153677,#4e085f);
+    min-height: 100vh;
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    position: relative;
+    top: 30vh;
+    left: 40vw;
+    border-radius: 10px;
+    padding: 25px;
+    width: max-content;
+}
+
+.container h2{
+    font-size: 40px;
+}
+.container input{
+    margin-top: 20px;
+    width: 20vw;
+    height: 5vh;
+    border-radius: 8px;
+}
+.container button{
+    border-radius: 2px;
+    background-color: rgb(230, 36, 36);
+}
+
+ul li span{
+    position: absolute;
+    right: 0;
+    top: 5px;
+    width: 40px;
+    height: 40px;
+    font-size: 20px;
+    color: red;
+    line-height: 40px;
+    text-align: center;
+    border-radius: 50%;
+}
+
+ul li span:hover{
+    background-color: black;
+}
